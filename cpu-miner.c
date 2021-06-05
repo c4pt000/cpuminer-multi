@@ -3422,8 +3422,9 @@ static int thread_create(struct thr_info *thr, void* func)
 
 static void show_credits()
 {
-	printf("** " PACKAGE_NAME " " PACKAGE_VERSION " by tpruvot@github **\n");
-	printf("BTC donation address: 1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd (tpruvot)\n\n");
+	printf("** " PACKAGE_NAME " " PACKAGE_VERSION " original by tpruvot@github **\n");
+	printf("RADC donation address: RBARRP64VQhMpozPaNFXRSzCgn9FtvDuFM (c4pt000)\n\n");
+	printf("***CPU MINING ONLY***\n\n");
 }
 
 void get_defconfig_path(char *out, size_t bufsize, char *argv0);
